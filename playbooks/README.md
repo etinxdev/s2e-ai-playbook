@@ -1,8 +1,16 @@
-# Delivery playbooks (AI-assisted)
+# Playbook di delivery (assistiti da AI)
 
-| Playbook | Covers |
+| Playbook | Copre |
 | --- | --- |
-| [Requirement Collection & Analysis](requirement-collection-analysis.md) | Kick-off to a signed requirements baseline, plus the maintenance loop |
-| [Technical Solution & Architecture](technical-solution-architecture.md) | Signed requirements to a signed technical baseline (G3), plus drift checks |
+| [Panoramica del ciclo di vita della delivery](1_Playbook_Ciclo_di_vita_della_delivery.md) | Dal primo contatto con il cliente al rilascio in produzione e all'hypercare: 5 fasi, 5 gate (G1–G5) |
+| [Raccolta e analisi dei requisiti](3_Playbook_Raccolta_e_analisi_dei_requisiti.md) | Dal kick-off a una baseline dei requisiti firmata (G2), più il ciclo di manutenzione |
+| [Soluzione tecnica e architettura](4_Playbook_Soluzione_tecnica_e_architettura.md) | Dai requisiti firmati a una baseline tecnica firmata (G3), più i controlli di deriva |
 
-Each step table includes an "Example skills and agents" row. Skills marked (new) are still to be built. Diagrams are Mermaid, rendered by GitHub.
+Ogni tabella dei passi include una riga "Esempi di skill e agenti". Le skill indicate come (nuova) sono ancora da realizzare. I diagrammi sono in Mermaid, renderizzati da GitHub.
+
+## Versioni precedenti
+
+La cartella [`old/`](old/) contiene le versioni precedenti in inglese, mantenute come riferimento:
+
+- [Requirement Collection & Analysis](old/requirement-collection-analysis.md)
+- [Technical Solution & Architecture](old/technical-solution-architecture.md)
